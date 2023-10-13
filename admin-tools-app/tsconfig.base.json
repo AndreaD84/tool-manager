@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "dataaccess": ["src/libs/dataaccess/src/index.ts"],
       "redis-manager": ["src/libs/redis-manager/src/index.ts"]
     }
   },

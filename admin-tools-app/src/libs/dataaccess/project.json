@@ -1,0 +1,16 @@
+{
+  "name": "dataaccess",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "src/libs/dataaccess/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["src/libs/dataaccess/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}
