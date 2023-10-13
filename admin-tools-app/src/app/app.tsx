@@ -47,7 +47,7 @@ export function App() {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              myMSC Admin Tools
+              Admin Tools
             </Typography>
           </Toolbar>
           <Drawer
